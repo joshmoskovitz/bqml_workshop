@@ -144,8 +144,8 @@
     col: 0
     width: 6
     height: 4
-  - title: Predicted vs. Actual
-    name: Predicted vs. Actual
+  - title: Predicted vs Actual
+    name: Predicted vs Actual
     model: bqml_demo
     explore: trip
     type: looker_scatter
