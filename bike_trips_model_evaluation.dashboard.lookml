@@ -4,7 +4,7 @@
   elements:
   - title: R Squared
     name: R Squared
-    model: bqml_demo
+    model: bqml_workshop
     explore: trip_count_regression_evaluation
     type: single_value
     fields:
@@ -51,7 +51,7 @@
     height: 3
   - title: Explained Variance
     name: Explained Variance
-    model: bqml_demo
+    model: bqml_workshop
     explore: trip_count_regression_evaluation
     type: single_value
     fields:
@@ -96,7 +96,7 @@
     height: 3
   - title: Summary
     name: Summary
-    model: bqml_demo
+    model: bqml_workshop
     explore: trip_count_regression_evaluation
     type: looker_single_record
     fields:
@@ -146,7 +146,7 @@
     height: 4
   - title: Predicted vs Actual
     name: Predicted vs Actual
-    model: bqml_demo
+    model: bqml_workshop
     explore: trip
     type: looker_scatter
     fields:
@@ -201,7 +201,7 @@
     height: 10
   - title: Training loss
     name: Training loss
-    model: bqml_demo
+    model: bqml_workshop
     explore: trip_count_training
     type: looker_area
     fields:
@@ -242,7 +242,7 @@
     height: 6
   - title: Training Detail
     name: Training Detail
-    model: bqml_demo
+    model: bqml_workshop
     explore: trip_count_training
     type: table
     fields:
@@ -296,7 +296,7 @@
     height: 6
   - title: Total Iterations
     name: Total Iterations
-    model: bqml_demo
+    model: bqml_workshop
     explore: trip_count_training
     type: single_value
     fields:
@@ -351,7 +351,7 @@
     height: 2
   - title: Total Training Time (sec)
     name: Total Training Time (sec)
-    model: bqml_demo
+    model: bqml_workshop
     explore: trip_count_training
     type: single_value
     fields:
@@ -407,7 +407,7 @@
     height: 2
   - title: Average Iteration Time (sec)
     name: Average Iteration Time (sec)
-    model: bqml_demo
+    model: bqml_workshop
     explore: trip_count_training
     type: single_value
     fields:
