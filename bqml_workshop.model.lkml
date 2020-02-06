@@ -1,4 +1,4 @@
-connection: "google_analytics2"
+connection: "google-bq-biketrips"
 
 include: "*.view.lkml"         # include all views in this project
 include: "*.dashboard.lookml"  # include all dashboards in this project
