@@ -90,7 +90,7 @@ view: trip {
 
   dimension: trip_duration {
     type: string
-    sql: ${TABLE}.trip_duration ;;
+    sql: CAST(${TABLE}.trip_duration AS NUMERIC) ;;
   }
 
   dimension: is_a_member {
